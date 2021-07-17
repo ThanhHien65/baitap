@@ -1,0 +1,164 @@
+//Xuất ra màn hình các số nguyên dương chẵn từ n đến 0.
+/*let n = parseInt(prompt("nhap mot so"));
+for (i = 0; i<=n; i += 2){
+    console.log(i)
+}
+*/
+
+
+//Đếm số lượng số lẻ trong khoảng từ 0 đến n.
+/*
+let n = parseInt(prompt("nhap mot so"));
+for (i = 0; i<=n; i++){
+    if(i % 2 != 0){
+        console.log(i)
+    }
+}
+*/
+//Tính tổng và tích các số từ 1 đến n.
+/*
+var tich = 1;
+var tong = 0;
+let n = parseInt(prompt("nhap mot so"));
+    if(n <= 0 ){
+        alert("nhập số lớn hơn 0");
+    }
+    else{
+        for (i = 0; i<=n; i++)
+        tong += i;
+        
+    }
+console.log("tong gia tri la: " + tong);
+*/
+//Đếm số lượng ước số của n, và xuất danh sách ước số đó ra màn hình
+/*
+dem = 0
+let n = parseInt(prompt("nhap mot so "));
+for (i = 0; i <= n; i++){
+    if(n % i == 0){
+    dem++;
+    console.log(dem);
+    }
+}
+*/
+// Cho biết n có phải là số nguyên tố hay không.
+/*
+let n = parseInt(prompt("nhap mot so "));
+var flag = true 
+if( n<2){
+    flag= false;
+}
+else{
+        for (var i = 2; i < n-1; i++)
+        {
+            if (n % i == 0){
+                flag = false;
+                break;
+            }
+        }    
+}
+if (flag == true){
+    alert(n + " là số nguyên tố");
+  
+}
+else{
+    alert(n + " không phải là số nguyên tố ");
+}
+*/
+//Nhập 2 số nguyên dương a và b. Xuất ra màn hình bội chung nhỏ nhất của a và b.
+/*
+let a = parseInt(prompt("nhap mot so a "));
+let b = parseInt(prompt("nhap mot so b "));
+var i = 1;
+while(i>0){
+    if (i % a == 0 && i % b == 0){
+        console.log(i);
+        break;
+    }
+    i++;
+}
+*/
+// var m = parseInt(prompt("nhap mot so  "));
+// var aaa = []
+// function nguyento (n)
+// {
+//     if (n < 2) return false;
+//     var q = Math.floor(Math.sqrt(n));
+//     for (var i = 2; i <= q; i++)
+//     {
+//         if (n % i == 0)
+//         {
+//             return false;
+//         }
+//     }
+//     return true;
+// } 
+
+// for(i = 3;i > 0; i++){
+//     if( nguyento(i)){
+//         aaa.push(i)
+//     }
+//     if(aaa.length == m){
+//         break;
+//     }
+
+// }
+// console.log(aaa)
+
+// var tong = 0
+// let n = parseInt(prompt("nhap mot so  "));
+// var aaa = [];
+// for(i = 1; i < n; i++){
+//     if(n % i == 0 ){
+//        aaa.push(i)
+//     }
+    
+// }
+// for(i = 0; i <= aaa.length - 1; i++){
+//     tong += aaa[i]
+   
+// }
+// if (tong == n){
+//     console.log('so hoan thien')
+// }else{
+//     console.log('khong phai la so hoan thien')
+// }
+// console.log(aaa)
+// console.log(tong)
+// for( var value of aaa){
+//     console.log(value)
+// }
+
+// var aaa = [];
+// var tong = 0;
+// function a (b){
+//     var c = (b.split(''))
+//     for(i = 0; i <= c.length - 1; i++ ){
+//         tong += (Number(c[i]))**2
+//     } 
+// }
+// for(i = 100;i <=999; i++){
+//     if(a(i) == 25){
+//        aaa.push(i);
+//     }
+// }
+// var tau1 = ['a', 'b', 'c'];
+// console.log(tau1[tau1.length-1])
+// var arr = [1,2,3,4]
+// for (i in arr)
+//     console.log(arr[i])
+// }
+
+// var total=0;
+// let a =parseInt(prompt('nhap mot so'));
+// function tinhgiaothua(a){
+//     for(var value in a){
+//         var number2 = total += Number(a[value]**2)
+//         }
+//         if(number2 == 25){
+//             console.log('tong binh phuong cua 3 so bang 25')
+//         }else{
+//             console.log('tong binh phuong cua 3 so khong bang 25')
+//         } 
+        
+// }
